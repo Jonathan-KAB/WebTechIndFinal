@@ -3,7 +3,7 @@
 
 Welcome to Tasker! This is meant to serve as a personal task management website for your personal project management needs. This serves as my individual project submission for Web Technologies Cohort A.
 
-## Dependencies:
+## Languages and Dependencies:
 * PHP
 * CSS
 * Tailwind
