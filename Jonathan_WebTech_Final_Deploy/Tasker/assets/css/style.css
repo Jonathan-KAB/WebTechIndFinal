@@ -1,0 +1,42 @@
+.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.highlight {
+    transition: background-color 0.5s ease;
+}
+
+.task-updated {
+    background-color: #f0fff4 !important;
+    transition: background-color 0.3s ease;
+}
+
+.task-row {
+    transition: all 0.3s ease;
+}
+
+/* Edit Modals */
+
+.modal {
+    transition: opacity 0.3s ease;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.task-row, .project-card {
+    transition: opacity 0.3s ease;
+}
+
+/* Task Deletion */
+
+.delete-task, .delete-project {
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+}
+
+.delete-task:hover, .delete-project:hover {
+    opacity: 1;
+}
