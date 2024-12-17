@@ -33,11 +33,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$hashedPassword')";
     if ($conn->query($sql)) {
         $_SESSION['message'] = "Registration successful. Please login.";
-        header("Location: ../../views/login.php");
+        header("Location: ../views/login.php");
         exit();
     } else {
         $_SESSION['error'] = "Registration failed. Please try again.";
-        header("Location: ../../views/register.php");
+        header("Location: ../views/register.php");
         exit();
     }
 }
